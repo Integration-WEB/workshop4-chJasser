@@ -15,18 +15,21 @@
 }
 
 @font-face {
-    font-family: 'lacuna_regularregular';
-    src: url('../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.eot?#iefix');
-    src: url('../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.woff2') format('woff2'),
-         url('../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.woff') format('woff'),
-         url('../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.ttf') format('truetype'),
-         url('../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.svg#lacuna_regularregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "lacuna_regularregular";
+  src: url("../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.eot?#iefix");
+  src: url("../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.woff2")
+      format("woff2"),
+    url("../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.woff")
+      format("woff"),
+    url("../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.ttf")
+      format("truetype"),
+    url("../fontface/Lacuna-Regular-fontfacekit/lacuna-webfont.svg#lacuna_regularregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 .navbar {
   background-color: #2d2b2b !important;
@@ -38,7 +41,7 @@
   padding-top: unset !important;
 }
 .nav-link {
-  font-family: League Gothic;
+  font-family: "League Gothic";
 }
 
 .logo {
@@ -51,20 +54,49 @@
 }
 .bi-circle-fill {
   color: #f0bd01;
- 
 }
 
 .section2 p {
-    margin-top: 1.6rem !important;
+  margin-top: 1.6rem !important;
 }
 
 .Body_text {
-    font-size:1.2rem;
-    font-family: "lacuna_regularregular";
-    color: rgb(58, 10, 29);
-   text-align: left;
-  }
-  .section3-btn{
-    color: #f0bd01;
-    float:  right;
-  }
+  font-size: 1.2rem;
+  font-family: "lacuna_regularregular";
+  color: rgb(58, 10, 29);
+  text-align: left;
+}
+.section3-btn {
+  background-color: #f0bd01 !important;
+  float: right;
+}
+
+footer {
+  background-color: #f0bd01;
+  padding-top: 2.5rem;
+}
+
+footer span {
+  font-size: 1.8rem;
+  color: #31332e;
+  font-family: "League Gothic";
+}
+
+footer p {
+  font-size: 1.17rem;
+  font-family: "lacuna_regularregular";
+  color: #615822;
+}
+
+.social-icon {
+  color: #f0bd01;
+  height: 2rem !important;
+  width: 1.875rem !important;
+  border-radius: 50%;
+  background-color: white;
+  padding-top: 0.22rem;
+  margin: 1rem !important;
+}
+footer i {
+  color: #f0bd01;
+}
