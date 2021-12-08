@@ -69,6 +69,20 @@
 .section3-btn {
   background-color: #f0bd01 !important;
   float: right;
+  border: none;
+  width: 5.3rem;
+  height: 1.75rem;
+ 
+}
+.section3{
+  background-color: #fafafa;
+}
+.p-space{
+  margin-top: 4rem;
+}
+.bi-quote{
+ font-size: 2.5rem;
+ color: #616161;
 }
 
 footer {
@@ -100,3 +114,5 @@ footer p {
 footer i {
   color: #f0bd01;
 }
+
+
